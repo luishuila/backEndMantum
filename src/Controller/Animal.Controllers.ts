@@ -54,7 +54,9 @@ export class AnimalControllers implements  Controllers   {
     async stores(req:Request, res:Response){
        
     }
-    async updated(req:Request, res:Response){};
-    async delete(req:Request, res:Response){};
+    async update(req:Request, res:Response){};
+    async delete(req:Request, res:Response){
+
+    };
     
 }
